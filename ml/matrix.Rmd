@@ -180,7 +180,7 @@ grid <- matrix(x[3,], 28, 28)
 
 To confirm that in fact we have done this correctly, we can use the function `image`, which shows an image of its third argument. The top of this plot is pixel 1, which is shown at the bottom so the image is flipped. To code below includes code showing how to flip it back:
 
-```{r eval=FALSE}
+```{r, eval=FALSE}
 image(1:28, 1:28, grid)
 image(1:28, 1:28, grid[, 28:1])
 ```
